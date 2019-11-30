@@ -5,7 +5,7 @@
 {create-factory}:React = require \react
 {div, input, span} = require \react-dom-factories
 {find-DOM-node} = require \react-dom
-ReactCSSTransitionGroup = create-factory require \react-transition-group/CSSTransitionGroup
+{CSSTransitionGroup: ReactCSSTransitionGroup} = require \react-transition-group
 ReactTether = create-factory require \./ReactTether
 DivWrapper = create-factory require \./DivWrapper
 OptionWrapper = create-factory require \./OptionWrapper
