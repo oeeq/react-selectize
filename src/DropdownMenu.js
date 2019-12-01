@@ -5,7 +5,7 @@
   React = require('react'), createFactory = React.createFactory;
   ref$ = require('react-dom-factories'), div = ref$.div, input = ref$.input, span = ref$.span;
   findDOMNode = require('react-dom').findDOMNode;
-  ReactCSSTransitionGroup = createFactory(require('react-transition-group/CSSTransitionGroup'));
+  ReactCSSTransitionGroup = require('react-transition-group').CSSTransitionGroup;
   ReactTether = createFactory(require('./ReactTether'));
   DivWrapper = createFactory(require('./DivWrapper'));
   OptionWrapper = createFactory(require('./OptionWrapper'));
